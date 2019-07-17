@@ -21,7 +21,7 @@ This only need to be done on the first time for the call
             return;
         }
 
-the object[] return contains on index 0 a boolean with the status true or false
+the object[] returned contains on index 0 a boolean with the status true or false
 and at index 1 the error/success message
 
 To set the function address:
