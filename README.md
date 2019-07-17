@@ -39,7 +39,7 @@ You can set some register before the call with:
 
 And finally call the function with
 
-        r = x.Call();
+        r = aRemoteMethod.Call();
         if (!(bool)r[0])
         {
             MessageBox.Show((string)r[1], "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
